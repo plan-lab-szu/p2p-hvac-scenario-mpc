@@ -46,8 +46,9 @@ modules, via `figures/capture_run.py` and `figures/capture_convergence.py`:
 | Fixed state 15 Jan 2014 12:00, PJ 10/50/100 homes | iterations to acceptance | 137 / 159 / 245 | (not archived) |
 | Same state, GS 10 homes | outcome | iteration cap (1000) reached | all reference GS trials failed at the cap |
 
-These reruns used the same computer as the original experiments, so they do not demonstrate portability
-to other operating systems or hardware. An earlier attempt to import OSQP (1.1.3 and 0.6.7.post3) in a separate
+These reruns were carried out by the authors' side on a single Windows 11 machine (build 10.0.26200,
+the same OS build as the original environment); they are not an independent third-party reproduction and
+do not demonstrate portability to other operating systems or hardware. An earlier attempt to import OSQP (1.1.3 and 0.6.7.post3) in a separate
 fresh Windows environment stalled during the original packaging; that problem did not occur here.
 
 ## Not verified
