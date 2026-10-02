@@ -1,0 +1,28 @@
+{
+  "status": "LOCAL REVIEW ONLY; not authorized for public distribution",
+  "original_identifiers_included": false,
+  "household_trajectories_included": true,
+  "privacy_note": "Removing identifiers is not a guarantee against re-identification.",
+  "source": "SGSC observed base demand; simulated PV; regional ERA5 ambient temperature",
+  "rows": 4320,
+  "homes": 100,
+  "first": "2013-11-01T00:00:00.000000",
+  "last": "2014-01-29T23:30:00.000000",
+  "interval_minutes": 30,
+  "units": {
+    "base_kw": "kW",
+    "sydney_utc10_end_pv": "kW",
+    "sydney_utc10_end_ambient": "degC"
+  },
+  "column_order": "Same 100-column order as configuration_without_identifiers.json; first 50 form the 50-home case",
+  "source_npz_sha256": "36279a716d7d79fe33f551c13631ac2fdb355ff8ee91cef3a8a36f9c5a3d474f",
+  "exported_npz_sha256": "bcce2b5066e4a33cb42ba83e3916ca1e9a86964e20cdc94d8c08b6a3be93ced3",
+  "exported_arrays_bitwise_equal": true,
+  "next_action": "Author reviews distribution scope before bundling these derived inputs for publication.",
+  "files": {
+    "network_case.npz": "86a0e4c828d8ce2ff6b7a0895e2543def6054e72a0011053f69f9b0e981459a4",
+    "study_inputs.npz": "bcce2b5066e4a33cb42ba83e3916ca1e9a86964e20cdc94d8c08b6a3be93ced3",
+    "timing_states.json": "fa31743f66b5539cb61b527b5ed165b8cf88497f768d062cc3483b150c0573ac"
+  },
+  "network_note": "case33bw-derived data; distribution review is separate from code licensing"
+}

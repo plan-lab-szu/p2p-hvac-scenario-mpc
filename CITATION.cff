@@ -1,0 +1,40 @@
+# RELEASE TODO: add the Zenodo DOI (identifiers) and the repository URL after the first release;
+# update preferred-citation once the article is accepted.
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Distributed scenario-based MPC for P2P energy trading with residential thermal flexibility: code and data"
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: Yang
+    given-names: Qing
+    affiliation: "Shenzhen University"
+  - family-names: Wang
+    given-names: Hao
+    affiliation: "Monash University"
+  - family-names: Wang
+    given-names: Taotao
+    affiliation: "Shenzhen University"
+  - family-names: Li
+    given-names: Dongyuan
+    affiliation: "Shenzhen University"
+  - family-names: Liu
+    given-names: Fang
+    affiliation: "Shenzhen University"
+preferred-citation:
+  type: article
+  title: "Distributed Scenario-Based Model Predictive Control for Peer-to-Peer Energy Trading with Residential Thermal Flexibility"
+  journal: "Sustainable Energy, Grids and Networks"
+  status: submitted
+  authors:
+    - family-names: Yang
+      given-names: Qing
+    - family-names: Wang
+      given-names: Hao
+    - family-names: Wang
+      given-names: Taotao
+    - family-names: Li
+      given-names: Dongyuan
+    - family-names: Liu
+      given-names: Fang

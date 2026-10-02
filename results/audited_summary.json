@@ -1,0 +1,89 @@
+{
+  "main_formal_passed": true,
+  "main_formal_audited_steps": 1344,
+  "timing_status": {
+    "all_trials_finished": true,
+    "all_trials_passed": false,
+    "final_pj_all_passed": true,
+    "baseline_failures": 8
+  },
+  "timing_groups": [
+    {
+      "n": 10,
+      "method": "gs",
+      "planned": 8,
+      "passed": 0,
+      "failed": 8,
+      "algorithm_seconds": null,
+      "cold_control_latency_seconds": null,
+      "central_audit_seconds": null
+    },
+    {
+      "n": 10,
+      "method": "pj",
+      "planned": 8,
+      "passed": 8,
+      "failed": 0,
+      "algorithm_seconds": {
+        "mean": 5.069141899999522,
+        "p95": 6.188613224994333,
+        "maximum": 6.263612099995953
+      },
+      "cold_control_latency_seconds": {
+        "mean": 5.703388949999862,
+        "p95": 6.7993312999977205,
+        "maximum": 6.863311299995985
+      },
+      "central_audit_seconds": {
+        "mean": 0.3849715875003312,
+        "p95": 0.4365106100056437,
+        "maximum": 0.4443945000093663
+      }
+    },
+    {
+      "n": 50,
+      "method": "pj",
+      "planned": 4,
+      "passed": 4,
+      "failed": 0,
+      "algorithm_seconds": {
+        "mean": 37.69993710000199,
+        "p95": 44.621814409999935,
+        "maximum": 45.0845405
+      },
+      "cold_control_latency_seconds": {
+        "mean": 38.40380559999903,
+        "p95": 45.30561849499863,
+        "maximum": 45.76531160000013
+      },
+      "central_audit_seconds": {
+        "mean": 4.18882179999855,
+        "p95": 4.489925895001943,
+        "maximum": 4.530699900002219
+      }
+    },
+    {
+      "n": 100,
+      "method": "pj",
+      "planned": 4,
+      "passed": 4,
+      "failed": 0,
+      "algorithm_seconds": {
+        "mean": 95.87693577499522,
+        "p95": 103.34076161998819,
+        "maximum": 104.06394299998647
+      },
+      "cold_control_latency_seconds": {
+        "mean": 96.67772067500118,
+        "p95": 104.14911099499659,
+        "maximum": 104.87447779999638
+      },
+      "central_audit_seconds": {
+        "mean": 12.451839274996019,
+        "p95": 12.903037369994854,
+        "maximum": 12.923630599994794
+      }
+    }
+  ],
+  "no_pure_parallelization_speedup": true
+}

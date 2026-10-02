@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.15.3",
+    "cvxpy": "1.6.5",
+    "clarabel": "0.11.1",
+    "pandas": "3.0.1"
+  },
+  "solver": "CLARABEL",
+  "scope": "Existing experiment environment; not a clean-environment certification"
+}

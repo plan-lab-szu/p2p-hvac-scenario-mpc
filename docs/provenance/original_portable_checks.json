@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "name": "synthetic",
+      "passed": true
+    },
+    {
+      "name": "pj",
+      "passed": true
+    },
+    {
+      "name": "central",
+      "passed": true
+    },
+    {
+      "name": "deterministic",
+      "passed": true
+    },
+    {
+      "name": "mean",
+      "passed": true
+    },
+    {
+      "name": "box",
+      "passed": true
+    },
+    {
+      "name": "timing_pj",
+      "passed": true
+    },
+    {
+      "name": "full_144_step_sensitivity_matches_audit",
+      "passed": true,
+      "max_absolute_difference": 4.547473508864641e-13
+    },
+    {
+      "name": "100_home_network_two_step_execution",
+      "passed": true
+    },
+    {
+      "name": "frozen_numerical_sources_equal",
+      "passed": true,
+      "module_count": 30
+    }
+  ],
+  "original_identifier_scan_passed": true,
+  "uploaded": false,
+  "scope": "Existing environment, portable wrappers; full 50/100 formal cases not rerun",
+  "remaining": "Author approval of input redistribution, license and upload; independent clean environment not certified"
+}
