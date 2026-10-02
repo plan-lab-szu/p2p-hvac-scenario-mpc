@@ -1,11 +1,11 @@
-# RELEASE TODO: add the Zenodo DOI (identifiers) and the repository URL after the first release;
-# update preferred-citation once the article is accepted.
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the article below."
 title: "Distributed scenario-based MPC for P2P energy trading with residential thermal flexibility: code and data"
 type: software
 version: "1.0.0"
 license: MIT
+repository-code: "https://github.com/plan-lab-szu/p2p-hvac-scenario-mpc"
+url: "https://github.com/plan-lab-szu/p2p-hvac-scenario-mpc"
 authors:
   - family-names: Yang
     given-names: Qing

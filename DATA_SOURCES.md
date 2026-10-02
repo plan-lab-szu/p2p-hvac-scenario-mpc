@@ -47,9 +47,10 @@ sources below. License terms were checked against the source pages on 2 October 
 - Required attribution (Open-Meteo): "Weather data by Open-Meteo.com" with a link to https://open-meteo.com/.
   Suggested citation: Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo.
   https://doi.org/10.5281/zenodo.7970649.
-- Dataset citation for ERA5: use the "Citation" entry of the CDS catalogue page. At the time of writing the
-  page lists DOI 10.24381/cds.adbb2d47; the formatted reference text could not be read from the page, so
-  copy it from the catalogue entry before publishing.
+- Dataset citation for ERA5 (from the DataCite record of DOI 10.24381/cds.adbb2d47, retrieved 2 October 2026):
+  C3S (2018). *ERA5 hourly data on single levels from 1940 to present* [Dataset]. Copernicus Climate Change
+  Service (C3S) Climate Data Store (CDS). https://doi.org/10.24381/cds.adbb2d47. The data were obtained
+  through the Open-Meteo API (see above), not downloaded directly from the CDS.
 - Changes made: temperature averaged from interpolated interval endpoints, preceding-hour mean radiation
   held over two half-hours, conversion to a fixed UTC+10 interval-end clock, and PV output computed with a
   simplified NOCT/PVWatts-inspired model (see `docs/DATA_PREPARATION.md`).

@@ -6,8 +6,6 @@ Code, processed experimental inputs and results for the article
 > Peer-to-Peer Energy Trading with Residential Thermal Flexibility", *Sustainable Energy, Grids and
 > Networks* (under revision, manuscript SEGAN-D-26-02133).
 
-<!-- RELEASE TODO: replace the line above with the final citation and add the Zenodo DOI badge. -->
-
 The repository reproduces the closed-loop experiments of the revised manuscript:
 
 | Manuscript item | What it shows | How to reproduce |
@@ -93,10 +91,6 @@ Data attribution: household demand derived from the Smart-Grid Smart-City Custom
 (© Commonwealth of Australia, Department of Climate Change, Energy, the Environment and Water,
 CC BY 3.0 AU; selected households, converted to kW, identifiers removed). Contains modified Copernicus
 Climate Change Service information 2026. Weather data by [Open-Meteo.com](https://open-meteo.com/).
-
-<!-- RELEASE TODO: the authors have confirmed the copyright holders; the MIT code license and the CC BY 4.0
-     statement in data/LICENSE.md are the proposed defaults and need final confirmation before the
-     repository is made public. -->
 
 ## Acknowledgments of third-party sources
 
